@@ -9,7 +9,7 @@ $(document).ready(function() {
 	clouds.position.x = 200;
 	clouds.position.y = 200;
 	stage.addChild(clouds);
-	var text = new PIXI.Text("Welcome", {font:"50 px Arial", dropShadow: true, fill:"white"});
+	var text = new PIXI.Text("Welcome", {font:"50px Arial", dropShadow: true, fill:"white"});
 	text.anchor.x = 0.5;
 	text.anchor.y = 0.5;
 	text.position.x = 200;
